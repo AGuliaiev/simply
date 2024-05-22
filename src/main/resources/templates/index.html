@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link rel="stylesheet" th:href="@{/main.css}">
+</head>
+<body>
+    <div th:replace="layouts/header :: header"></div>
+    <main class="wrap">
+        <h1 class="simserv">Простой и удобный сервис</h1>
+        <h3 class="dowork">Делаем работу быстро и качественно</h3>
+        <button onclick="location.href='/uslugi'">
+                Посмотреть услуги
+        </button>
+    </main>
+    <div th:replace="layouts/footer :: footer"></div>
+</body>
+</html>

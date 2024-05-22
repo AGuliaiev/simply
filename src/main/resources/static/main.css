@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300:600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #e7e7e7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #d0d0d0;
+}
+
+.container {
+    width: 1258px;
+    margin: 0 auto;
+}
+
+header.container {
+    background: #343434;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-sizing: border-box;
+    align-items: center;
+    color: white;
+}
+
+header .logo {
+    font-weight: 600;
+    }
+
+.sim {
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    transition: font-size 0.5s ease;
+}
+.sim:hover {
+    font-size: 62px;
+}
+
+header nav a {
+    margin-left: 15px;
+}
+
+.foot {
+    background: #343434;
+    color: white;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.simserv{
+    margin:40px 0;
+    font-size: 60px;
+}
+.dowork{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+button{
+    background: #d93838;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #af3e3e;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fcfcfc;
+}
+button:hover{
+    background: #ff0000;
+    border: 2px solid #af3e3e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:focus {
+    width: 202px;
+    height: 42px;
+    box-shadow: 0 0 5px 5px rgba(246, 14, 97, 0.5);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 20vw;
+}
+
+.wrapper > div h1 {
+    margin-bottom: 20px;
+}
+
+.uslwrap {
+    margin-bottom: 60px;
+    font-size: 70px;
+}
